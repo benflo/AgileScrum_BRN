@@ -30,7 +30,7 @@ public class Menu extends Composite {
      * Menu : accueil
      */
     @UiField
-    public MenuItem pourcentage;
+    public MenuItem remise;
     /**
      * Menu : accueil
      */
@@ -56,20 +56,20 @@ public class Menu extends Composite {
                 History.newItem("exemple", true);
             }
         });
-        pourcentage.setScheduledCommand(new Scheduler.ScheduledCommand() {
-
-            @Override
-            public void execute() {
-
-                History.newItem("pourcentage", true);
-            }
-        });
         romain.setScheduledCommand(new Scheduler.ScheduledCommand() {
 
             @Override
             public void execute() {
 
                 History.newItem("roman", true);
+            }
+        });
+        remise.setScheduledCommand(new Scheduler.ScheduledCommand() {
+
+            @Override
+            public void execute() {
+
+                History.newItem("remise", true);
             }
         });
     }

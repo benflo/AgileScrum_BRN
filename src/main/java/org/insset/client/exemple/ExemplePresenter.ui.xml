@@ -9,7 +9,6 @@
 
         <g:FlowPanel>
           <g:FormPanel/>
-          
             <g:FlowPanel>
                 <g:Label>Quelle est votre nom ?</g:Label>
             </g:FlowPanel>

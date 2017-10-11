@@ -97,7 +97,7 @@ public class ExemplePresenter extends Composite {
         final String textToServer = nom.getText();
         if (!FieldVerifier.isValidName(textToServer)) {
             errorLabel.addStyleName("serverResponseLabelError");
-            errorLabel.setText("Aucun texte entré!!");
+            errorLabel.setText("Aucun texte entré !");
             return;
         }
         service.inverserChaine(textToServer, new AsyncCallback<String>() {
